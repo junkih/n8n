@@ -1,6 +1,9 @@
 {
   "name": "@n8n/config",
   "version": "1.15.0",
+  "engines": {
+    "node": "22"  // Hier die gewünschte Node-Version eingeben
+  }
   "scripts": {
     "clean": "rimraf dist .turbo",
     "dev": "pnpm watch",
